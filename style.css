@@ -15,14 +15,14 @@ body {
 
 #game-grid {
     display: grid;
-    grid-template-columns: repeat(10, 20px);
-    grid-gap: 2px;
+    grid-template-columns: repeat(3, 40px); /* Adjusted for 3 columns */
+    grid-gap: 5px;
     margin-bottom: 20px;
 }
 
 .cell {
-    width: 20px;
-    height: 20px;
+    width: 40px; /* Slightly larger for better visibility */
+    height: 40px;
     background-color: #111;
     border: 1px solid #333;
 }
@@ -43,3 +43,4 @@ body {
 #controls button:hover {
     background-color: #666;
 }
+
